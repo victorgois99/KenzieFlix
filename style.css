@@ -1,0 +1,61 @@
+body{
+    background-color: #000000;
+    margin: 100px;
+    height: 70vh;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: #121214;
+    height: 100%;
+}
+
+.logo figure{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo h2{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: cursive;
+}
+
+.users ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+
+.users p{
+    color: gray;
+    text-align: center;
+    font-family: cursive;
+}
+
+.usuarios:hover{
+    color: gray;
+    border: solid 3px;
+}
+
+button{
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    background-color: #121214;
+    border: solid 1px #fff;
+    color: #fff;
+    font-family: cursive;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #121214;
+}
